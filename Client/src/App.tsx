@@ -1,7 +1,7 @@
 import { Routes, Route, Navigate, useNavigate } from "react-router-dom";
 import { ClerkProvider, useUser } from "@clerk/clerk-react";
 import Cognify from "./components/Cognify";
-import Features from "./Features";
+import Features from "./features";
 import SignInPage  from "./components/SignInPage";
 import { useEffect } from "react";
 import SignUpPage from "./components/SignUpPage";
